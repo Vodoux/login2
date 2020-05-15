@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(37, 39, 77);
+}
+
+form {
+    margin: 0 auto;
+    width: 55%;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    height: 450px;
+}
+
+.left-panel {
+    display: inline-block;
+    background-color: #ff9b00;
+    width: 30%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.content{
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.content p {
+    font-size: 22px;
+    word-spacing: 5px;
+}
+
+.left-panel .content i {
+    color: white;
+}
+
+h1 {
+    margin-top: 40px;
+}
+
+.right-panel {
+    display: inline-block;
+    background-color: white;
+    width: 70%;
+    padding-left: 40px;
+    padding-bottom: 130px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.right-panel input[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(37, 39, 77);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 35px;
+    font-weight: 800;
+}
+
+.right-panel input[type="text"] {
+    width: 75%;
+    height: 25px;
+    border: 2px solid rgb(211, 207, 207);
+    border-radius: 5px;
+}
+
+.right-panel p {
+    margin-bottom: 5px;
+}
+
+::placeholder{
+    padding-left: 10px;
+}
+
+.right-panel input[id="comentario"] {
+    height: 100px;
+}
